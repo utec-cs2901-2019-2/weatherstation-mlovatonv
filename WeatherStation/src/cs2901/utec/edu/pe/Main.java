@@ -9,5 +9,7 @@ public class Main {
       StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
       //ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
       ThirdPartyDisplay thirdPartyDisplay = new ThirdPartyDisplay(weatherData);
+
+      weatherData.changeMeasurements(50.0f, 20.1f, 34.3f);
     }
 }
