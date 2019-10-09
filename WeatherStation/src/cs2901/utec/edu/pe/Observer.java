@@ -1,5 +1,5 @@
 package cs2901.utec.edu.pe;
 
 public interface Observer {
-    void update();
+    public void update(float temperature, float humidity, float pressure);
 }
